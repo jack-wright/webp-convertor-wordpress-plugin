@@ -1,0 +1,19 @@
+{
+    "name": "btm/wordpress-webp-converter-plugin",
+    "description": "wp plugin convert images to webp",
+    "keywords": ["wordpress", "plugin"],
+    "authors": [
+        {
+            "name": "Jack Wright",
+            "email": "jtwright89@gmail.com"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webp\\App\\": "App/",
+            "Webp\\App\\PlatformFunctions\\": "App/PlatformFunctions/"
+        }
+    }
+}
